@@ -7,15 +7,16 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "mime-types": "^2.1.35",
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^3.3.2",
     "pdf-parse": "^1.1.1",
     "tesseract.js": "^5.1.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "ffmpeg-static": "^5.2.0",
-    "mime-types": "^2.1.35",
-    "form-data": "^4.0.0",
-    "dotenv": "^16.4.5"
+    "express": "^4.19.2"
   }
 }
