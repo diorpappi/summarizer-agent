@@ -119,7 +119,6 @@ app.post("/process", upload.single("file"), async (req, res) => {
 
 const PORT = process.env.PORT || 8787;
 app.listen(PORT, () => console.log("Agent listening on :" + PORT));
-import express from "express";
 import multer from "multer";
 import fs from "fs";
 import path from "path";
